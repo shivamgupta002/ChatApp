@@ -1,4 +1,3 @@
-/* eslint-disable react/display-name */
 import Header from "./Header";
 import Title from "../shared/Title";
 import { Grid } from "@mui/material";
