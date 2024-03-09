@@ -1,6 +1,14 @@
-import { useNavigate } from "react-router-dom";
 import { Suspense, lazy, useState } from "react";
+import { useNavigate } from "react-router-dom";
 // Import from materialUI
+import {
+  Add as AddIcon,
+  Group as GroupIcon,
+  Logout as LogoutIcon,
+  Menu as MenuIcon,
+  Notifications as NotificationsIcon,
+  Search as SearchIcon,
+} from "@mui/icons-material";
 import {
   AppBar,
   Backdrop,
@@ -10,14 +18,6 @@ import {
   Tooltip,
   Typography,
 } from "@mui/material";
-import {
-  Menu as MenuIcon,
-  Search as SearchIcon,
-  Add as AddIcon,
-  Group as GroupIcon,
-  Logout as LogoutIcon,
-  Notifications as NotificationsIcon,
-} from "@mui/icons-material";
 // Import components
 import { orange } from "../../constants/color";
 const SearchDialog = lazy(() => import("../specific/Search"));
