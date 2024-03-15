@@ -14,7 +14,7 @@ import {
 } from "@mui/icons-material";
 import { matBlack } from "../constants/color";
 import { Link } from "../components/styles/StylesComponents";
-import { sampleChats } from "../constants/sampleData";
+import { SampleChats } from "../constants/sampleData";
 import AvatarCard from "../components/shared/AvatarCard";
 import { useNavigate } from "react-router-dom";
 
@@ -84,7 +84,7 @@ const Groups = () => {
           sm={4}
           bgcolor={"bisque"}
         >
-          <GroupList myGroups={sampleChats} />
+          <GroupList myGroups={SampleChats} />
         </Grid>
         <Grid
           item

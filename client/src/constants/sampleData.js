@@ -1,4 +1,4 @@
-export const sampleChats = [
+export const SampleChats = [
   {
     avatar: ["https://www.w3schools.com/howto/img_avatar.png"],
     name: "Shivam",
